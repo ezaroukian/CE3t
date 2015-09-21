@@ -362,7 +362,7 @@ function genInst(){
 	instItems = [
 	["sep", "SeparatorHTML", {
         transfer: "keypress",
-        normalMessage: "<div align='center'><p><i>Press any key to continue.</i></p><p><i>Remember to respond as <b>quickly</b> and as <b>accurately</b> as possible -- You have 20 to respond to each item.</p></i></div>",
+        normalMessage: "<div align='center'><p><i>Press any key to continue.</i></p><p><i>Remember to respond as <b>quickly</b> and as <b>accurately</b> as possible &ndash; You have 20 to respond to each item.</p></i></div>",
         ignoreFailure: true,
 		hideProgressBar: false,
     }],
