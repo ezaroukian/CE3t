@@ -1,0 +1,14 @@
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js></script>"></script>
+
+<form class="cmxform" id=commentForm" method="get" action="form-handler.html" autocomplete="false">
+<fieldset>
+	<p>
+		<label for="cname">Name <span>(required, at least 2 characters)</span></label>
+		<input id="cname" name="name" minlength="2" type="text" required />
+	</p>
+</fieldset>
+</form>
+
+<script>
+$(#commentForm").validate();
