@@ -30,8 +30,7 @@ var defaults = [
     leftComment: "(bad)", rightComment: "(good)",
   },
   "Question", {
-    randomOrder: false,
-	timeout: 20000
+    randomOrder: false
   },  
   "PracticeQuestion", {
     hideProgressBar: true,

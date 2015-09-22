@@ -287,7 +287,7 @@ function ibexItem(onto,CErule){
 	}
 	////testing
 	//alert(quest);
-	return [ [type, "Question", {"q": "<span class='q'>"+quest+"</span>", "as": ans, "hasCorrect": cor } ] ];
+	return [ [type, "Question", {"q": "<span class='q'>"+quest+"</span>", "as": ans, "hasCorrect": cor, "timeout": 20000 } ] ];
 }
 
 function ibexItemsList(ontoList,CErulesList){
