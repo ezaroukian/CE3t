@@ -247,7 +247,7 @@ var tempLink = "http://i1341.photobucket.com/albums/o753/ezaroukian/11_zpsatl1xh
 var ontoList = [
 {type: "11", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/11new_zpsplmvl6ul.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/11_zpsatl1xhmu.png"
 {type: "13", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/13new_zpsysmrjtpm.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/13_zpslqb6lf25.png"
-{type: "31", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/31new_zpsnevqzba3.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/31_zpss87hqnkb.png"
+{type: "31", "https://farm6.staticflickr.com/5833/21439319129_f4fa378fde_b.jpg"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/31new_zpsnevqzba3.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/31_zpss87hqnkb.png"
 {type: "33", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/33_zpsy18d3v6x.png"}
 ]; 
 
