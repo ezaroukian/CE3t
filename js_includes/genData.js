@@ -1,3 +1,5 @@
+var timeLimit=15; //15 second timeout
+
 var neg = "cannot";
 //var neg = "isnot";
 //var neg = "diff";
@@ -287,7 +289,7 @@ function ibexItem(onto,CErule){
 	}
 	////testing
 	//alert(quest);
-	return [ [type, "Question", {"q": "<span class='q'>"+quest+"</span>", "as": ans, "hasCorrect": cor, "timeout": 20000 } ] ];
+	return [ [type, "Question", {"q": "<span class='q'>"+quest+"</span>", "as": ans, "hasCorrect": cor, "timeout": timeLimit*1000 } ] ];
 }
 
 function ibexItemsList(ontoList,CErulesList){
@@ -362,7 +364,7 @@ function genInst(){
 	instItems = [
 	["sep", "SeparatorHTML", {
         transfer: "keypress",
-        normalMessage: "<div align='center'><p><i>Press any key to continue.</i></p><p><i>Remember to respond as <b>quickly</b> and as <b>accurately</b> as possible &ndash; you have <b>20 seconds</b> to respond to each item.</p></i></div>",
+        normalMessage: "<div align='center'><p><i>Press any key to continue.</i></p><p><i>Remember to respond as <b>quickly</b> and as <b>accurately</b> as possible &ndash; you have <b>"+timeLimit+" seconds</b> to respond to each item.</p></i></div>",
         ignoreFailure: true,
 		hideProgressBar: false,
     }],
