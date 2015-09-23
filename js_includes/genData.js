@@ -245,16 +245,16 @@ for (i=0;i<diffs.length;i++){
 var tempLink = "http://i1341.photobucket.com/albums/o753/ezaroukian/11_zpsatl1xhmu.png";
 //ontographs
 var ontoList = [
-{type: "11", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/11new_zpsplmvl6ul.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/11_zpsatl1xhmu.png"
-{type: "13", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/13new_zpsysmrjtpm.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/13_zpslqb6lf25.png"
-{type: "31", link: "https://farm6.staticflickr.com/5833/21439319129_f4fa378fde_b.jpg"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/31new_zpsnevqzba3.png"},//"http://i1341.photobucket.com/albums/o753/ezaroukian/31_zpss87hqnkb.png"
-{type: "33", link: "http://i1341.photobucket.com/albums/o753/ezaroukian/33_zpsy18d3v6x.png"}
+{type: "11", link: "https://farm1.staticflickr.com/767/21626317755_325c02777a_b.jpg"},
+{type: "13", link: "https://farm1.staticflickr.com/760/21438229220_7e56049db5_b.jpg"},
+{type: "31", link: "https://farm6.staticflickr.com/5833/21439319129_f4fa378fde_b.jpg"},
+{type: "33", link: "https://farm6.staticflickr.com/5798/21600076796_351ff3598c_b.jpg"}
 ]; 
 
 //Turn them into items for IBEX
 function ibexItem(onto,CErule){
 	var type = onto.type+"-"+CErule.type;//
-	var image = "<img src='"+onto.link+"' height='360' >";//html containing ontograph link on google drive? test with http://tinyurl.com/ohleh6j
+	var image = "<img src='"+onto.link+"' height='360' >";
 	var quest = CErule.rule+"<br>"+image+"<br><br><br>Is the diagram consistent with the rule?";
 	var ans = ["Yes","No"];	
 	var cor = 1;
